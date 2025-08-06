@@ -1,4 +1,4 @@
-const logEndpoint = 'http://20.244.56.144/evaluation-service/logs';
+const logEndpoint = '/api/logs';
 
 export const Log = async (level, message) => {
   const accessToken = localStorage.getItem('accessToken');

@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Log } from './utils/logger';
 import { Typography, Box } from '@mui/material';
 
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = '/api';
 
 const RedirectComponent = () => {
   const { shortcode } = useParams();

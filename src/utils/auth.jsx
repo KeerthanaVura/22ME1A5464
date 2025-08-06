@@ -1,4 +1,4 @@
-const authEndpoint = 'http://20.244.56.144/evaluation-service/auth';
+const authEndpoint = '/api/auth';
 const authPayload = {
   email: 'vuravarshini@gmail.com',
   name: 'Vura Keerthana Sri Varshini',
